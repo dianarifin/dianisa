@@ -1,0 +1,494 @@
+
+/* default style - inherit */
+
+    /* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+    */
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+
+    body {
+        line-height: 1;
+    }
+
+    ol, ul {
+        list-style: none;
+    }
+
+    blockquote, q {
+        quotes: none;
+    }
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    body {
+        padding: 0 !important;
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        width: 100%;
+        height: 100%;
+        line-height: 1.46;
+    }
+
+/* default style - inherit */
+
+/* header style  */
+    .header {
+        display: block;
+        width: 100%;
+    }
+
+    .header-container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 35px 0 35px;
+    }
+
+    .header .header-in {
+        z-index: 6;
+        top: 0px;
+        width: 100%;
+        height: 50px;
+        border-bottom: 1px solid grey;
+        background-color: white;
+        -webkit-box-align: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+
+    .header-in .main-menu {
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .header .header-bottom {
+        z-index: 6;
+        display: block;
+        width: 100%;
+        min-height: 40px;
+        background-color: #0F6ABE;
+        -webkit-box-align: center;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        box-shadow: 0 4px 12px -4px #209ADE;
+    }
+
+    .header-bottom .header-container {
+        margin-top: -3px;
+        line-height: 1.1;
+    }
+
+    .header-bottom a {
+        text-decoration: none;
+        font-size: 11px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .header-bottom a:hover {
+        color: black;
+    }
+
+/* header style  */
+
+/* main style  */
+    
+    main {
+        margin-top: 40px;
+        width: 100%;
+        min-height: 831px;
+        background-color: white;
+        box-sizing: border-box;
+    }
+
+    .main-container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 940px;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    .recent-posts {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+
+    .recent-posts .main-advertisement {
+        width: 100%;
+        height: 200px;
+        background-color: #44AACA;
+        margin-bottom: 30px;
+        box-sizing: border-box;
+        border-radius: 2px;
+    }
+
+    .recent-posts .recent-info {
+        width: 100%;
+        min-height: 100%;
+        background-color: white;
+        padding-bottom: 10px;
+        border-bottom: 0.7px solid #121212;
+    }
+
+    .recent-posts .recent-info p {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: -0.2px;
+        color: #262626;
+    }
+
+    .recent-posts-main {
+        width: 100%;
+        min-height: 1000px;
+        margin-top: 30px;
+        /* background-color: green; */
+    }
+
+    .recent-posts-main .recent-post-index {
+        width: 69%;
+        min-height: inherit;
+        float: left;
+        padding-right: 25px;
+        /* background-color: red; */
+        box-sizing: border-box;
+    }
+
+    .recent-posts-main .recent-sidebar-index {
+        width: 31%;
+        min-height: inherit;
+        float: left;
+        background-color: white;
+        box-sizing: border-box;
+    }
+
+    /* advertisement  */
+    .recent-sidebar-index .sidebar-adv {
+        width: 100%;
+        height: 700px;
+        background-color: #E5E4E4;
+        border-radius: 3px;
+    }
+
+    .recent-post-inside {
+        display: block;
+        width: 100%;
+        min-height: 130px;
+        height: 160px;
+        margin: 0px 0 35px 0;
+        background-color: white;
+        box-sizing: border-box;
+    }
+
+    .recent-post-inside .thumbnail-post {
+        z-index: 6;
+        display: block;
+        width: 35%;
+        height: 160px;
+        max-height: 160px;
+        float: left;
+        overflow: hidden;
+        background-color: #E5E4E4;
+        box-sizing: border-box;
+        border-radius: 3px;
+    }
+
+    .thumbnail-post > picture {
+        display: block;
+        width: 100%;
+        /* min-height: 160px; */
+        height: 100%;
+        background-size: cover;
+        object-fit: cover;
+        overflow: hidden;
+        background-position: center center;
+        position: relative;
+    }
+ 
+    .thumbnail-post >  picture img {
+        display: block;
+        width: 100%;
+        /* min-height: 160px; */
+        height: 100%;
+        background-size: cover;
+        object-fit: cover;
+        overflow: hidden;
+        background-position: center center;
+        position: relative;
+    }
+
+    .recent-post-inside .post-inside {
+        width: 65%;
+        height: auto;
+        padding-left: 20px;
+        float: left;
+        background-color: white;
+        box-sizing: border-box;
+    }
+
+    .post-inside .category-post-inside {
+        margin: 10px 0 7px 0;
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .post-inside .category-post-inside a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #121212;
+    }
+
+    .post-inside .category-post-inside a:hover {
+        text-decoration: underline;
+        color: #121212;
+    }
+
+    .post-inside .title-post-inside h3 {
+        font-size: 21px;
+        font-weight: bold;
+        line-height: 1.3;
+        padding-right: 7px;
+        letter-spacing: -0.1px;
+        color: #121212 !important;
+    }
+
+    .post-inside .title-post-inside h3 a {
+        text-decoration: none;
+        color: #121212;
+
+    }
+
+    .post-inside .title-post-inside h3 a:hover {
+        color: #0F6ABE;
+        text-decoration: none;
+    }
+    
+    span.author-post-inside {
+        display: block;
+    }
+
+    .author-post-inside {
+        display: block;
+        margin: 6px 0 0px 0;
+        font-size: 11px;
+        color: #666666
+    }
+
+    .author-post-inside a {
+        text-decoration: none;
+        color: #666666;
+    }
+
+    .author-post-inside a:hover {
+        color: #0F6ABE;
+        text-decoration: underline;
+    }
+
+
+/* main style  */
+
+@media screen and (max-width: 1280px) {
+    /* hi-res laptops and desktops, big landscape tablets, laptops, and desktops*/ 
+
+}
+
+@media screen and (max-width: 1025px) {
+
+}
+
+@media screen and (max-width: 960px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+
+    /* main style  */
+    main .main-container {
+        margin: 0 10px 0 10px;
+    }
+
+
+    /* main style  */
+
+}
+
+@media screen and (max-width: 768px) {
+
+    /* main style  */
+    main .main-container {
+        margin: 0 10px 0 10px;
+    }
+
+    .recent-posts-main .recent-post-index {
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+    }
+
+    .recent-posts-main .recent-sidebar-index {
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+    }
+
+    .post-inside .title-post-inside h3 {
+        font-size: 20px;
+    } 
+
+    /* main style  */
+
+}
+
+@media screen and (max-width: 600px) {
+
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+
+
+    /* main header  */
+
+    .header-bottom .header-container {
+        margin-top: -5px;
+    }
+
+    .header-bottom a {
+        font-size: 9px;
+    }
+
+
+    /* main header  */
+
+
+    /* main style  */
+
+    .recent-info p {
+        font-size: 12px !important;
+    }
+
+    .recent-posts-main {
+        margin-top: 20px;
+    }
+
+    .recent-post-index {
+        padding-right: 10px !important;
+    }
+
+    .recent-post-inside {
+        height: auto;
+        margin-bottom: 25px !important;
+    }
+
+    .post-inside {
+        width: 70% !important;
+        padding-left: 15px !important;
+    }
+
+    .post-inside .category-post-inside {
+        margin-top: 5px !important;
+    }
+
+    .recent-post-inside .thumbnail-post {
+        width: 30% !important;
+        max-height: 130px !important;
+    }
+
+
+    .thumbnail-post > picture {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        background-position: center center;
+        position: relative;
+    }
+
+    .thumbnail-post > picture img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        background-position: center center;
+        position: relative;
+    }
+
+    .post-inside .title-post-inside h3 {
+        font-size: 18px !important;
+        line-height: 1.2;
+    }
+
+    /* main style  */
+
+}
+
+@media screen and (max-width: 480px) {
+
+    /* for mobile device  */
+    
+    /* main style  */
+    
+    .recent-post-inside {
+        height: auto;
+        margin-bottom: 15px !important;
+    }
+
+    .post-inside .category-post-inside {
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+
+    .post-inside .title-post-inside h3 {
+        font-size: 17px !important;
+        line-height: 1.2;
+    }
+
+    .recent-post-inside .thumbnail-post {
+        margin-top: 5px !important;
+        max-height: 100px !important;
+    }
+
+    /* main style  */
+
+
+
+}
