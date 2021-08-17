@@ -231,8 +231,7 @@
     .recent-post-inside {
         display: inline-block;
         width: 100%;
-        min-height: 130px;
-        height: 160px;
+        height: 100%;
         margin: 0px 0 35px 0;
         background-color: white;
         box-sizing: border-box;
@@ -378,10 +377,10 @@
     }
 
     .footer-top .footer-menu {
-        width: auto;
-        height: auto;
-        display: inline-block;
+        display: block;
         float: left;
+        width: auto;
+        height: 100%;
     }
 
     .footer-menu .footer-menu-left {
@@ -543,7 +542,6 @@
     }
 
     .recent-post-inside {
-        height: auto;
         margin-bottom: 20px !important;
     }
 
@@ -605,8 +603,7 @@
     /* main style  */
     
     .recent-post-inside {
-        height: auto;
-        margin-bottom: 15px !important;
+        margin-bottom: 17px !important;
     }
 
     .post-inside .category-post-inside {
@@ -645,7 +642,8 @@
     }
 
     .footer-menu-left ul li {
-        padding: 10px 10px 20px 10px;
+        font-size: 14px;
+        padding: 10px 10px 15px 10px;
     }
 
 
