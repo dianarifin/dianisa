@@ -421,10 +421,12 @@
 
     .post-inside {
         width: 70% !important;
+        margin-top: 5px;
         padding-left: 15px !important;
     }
 
     .post-inside .category-post-inside {
+        display: none !important;
         margin-top: 5px !important;
     }
 
