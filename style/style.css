@@ -585,6 +585,10 @@
 
     /* header style  */
 
+    .header-in .header-container {
+        margin: 0 15px 0 15px;
+    }
+
     .header-in .costum-main-menu {
         display: none;
     }
