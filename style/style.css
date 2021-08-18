@@ -78,9 +78,8 @@
         display: flex;
         align-items: center;
         width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0 35px 0 35px;
+        margin: 0 35px 0 35px;
+        box-sizing: border-box;
     }
 
     .header .header-in {
@@ -98,6 +97,7 @@
     }
 
     .header-in .main-menu {
+        z-index: 9;
         float: left;
         display: flex;
         align-items: center;
@@ -123,7 +123,7 @@
         position: relative;
         float: left;
         margin-left: 30px;
-        margin-top: 4px;
+        margin-top: 3px;
         display: flex;
         flex-wrap: wrap;
         width: 130px;
@@ -147,18 +147,20 @@
     }
 
     .header-in .costum-main-menu {
-        position: absolute;
+        position: relative;
         display: flex;
         width: 100%;
         align-items: center;
         justify-content: center;
         justify-items: center;
+        padding-bottom: 3px;
+        box-sizing: border-box;
     }
 
     .costum-main-menu nav a {
         padding: 0 10px 0 10px;
         text-decoration: none;
-        font-size: 12px;
+        font-size: 11px;
         color: #262626;
     }
 
