@@ -101,11 +101,18 @@
         float: left;
         display: inline-flex;
         align-items: center;
-        width: 60px;
+        width: 50px;
         height: 50px;
         background-color: black;
         box-sizing: border-box;
         user-select: none;
+        background-image: url("/Code/style/img/menu-icon.svg");
+        background-size: 25px auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-right: 10px;
+        padding-left: 10px;
+        box-sizing: border-box;
     }
 
     .main-menu img {
@@ -113,6 +120,7 @@
         display: inline-block;
         width: 25px;
         padding-left: 12px;
+        padding-right: 12px;
         height: auto;
     }
 
@@ -657,6 +665,30 @@
 
 @media screen and (max-width: 768px) {
 
+
+    /* header  */
+
+    .header-in .main-menu {
+        width: 53px !important;
+        background-image: url("/Code/style/img/menu-icon-black.svg");
+        background-size: 25px auto;
+        background-color: unset !important;
+        padding: unset !important;
+        margin-left: -15px;
+        background-position-y: center;
+        background-position-x: 15px;
+        box-sizing: border-box;
+
+    }
+
+    .header-in .main-menu:hover {
+        background-image: url("/Code/style/img/menu-icon.svg");
+        background-color: black !important;
+    }
+
+    /* header  */
+
+
     /* main style  */
     main .main-container {
         margin: 0 15px 0 15px;
@@ -706,7 +738,7 @@
     }
 
     .header-bottom a {
-        font-size: 9px;
+        font-size: 11px;
     }
 
 
