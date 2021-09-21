@@ -99,24 +99,30 @@
     .header-in .main-menu {
         z-index: 9;
         float: left;
-        display: flex;
+        display: inline-flex;
         align-items: center;
-        width: 20px;
-        height: auto;
+        width: 60px;
+        height: 50px;
+        background-color: black;
+        box-sizing: border-box;
+        user-select: none;
     }
 
     .main-menu img {
         z-index: 6;
         display: inline-block;
-        width: 100%;
-        height: 100%;
-        padding: 7px 7px 7px 7px;
+        width: 25px;
+        padding-left: 12px;
+        height: auto;
     }
 
-    .main-menu img:hover {
+    .header-in .main-menu:hover {
         cursor: pointer;
-        background-color:#E5E4E4;
+        background-color: #0F6ABE;
+        color: black;
     }
+
+
 
     .header-in .brand-logo {
         z-index: 7;
@@ -129,6 +135,7 @@
         width: 150px;
         height: auto;
         align-items: center;
+        user-select: none;
     }
 
     .brand-logo a img {
@@ -319,7 +326,7 @@
         display: inline-block;
         width: 100%;
         height: 100%;
-        margin: 0px 0 35px 0;
+        margin: 0px 0 20px 0;
         background-color: white;
         box-sizing: border-box;
     }
@@ -327,14 +334,14 @@
     .recent-post-inside .thumbnail-post {
         z-index: 6;
         display: block;
-        width: 35%;
-        height: 160px;
+        width: 32%;
+        height: 135px;
         max-height: 160px;
         float: left;
         overflow: hidden;
         background-color: #E5E4E4;
         box-sizing: border-box;
-        border-radius: 3px;
+        border-radius: 2px;
     }
 
     .thumbnail-post > picture {
@@ -362,7 +369,7 @@
     }
 
     .recent-post-inside .post-inside {
-        width: 65%;
+        width: 68%;
         height: auto;
         padding-left: 20px;
         float: left;
@@ -403,10 +410,10 @@
     }
 
     .post-inside .title-post-inside h3 {
-        font-size: 21px;
+        font-size: 19px;
         font-weight: bold;
         line-height: 1.3;
-        padding-right: 20px;
+        padding-right: 30px;
         letter-spacing: -0.1px;
         color: #121212 !important;
     }
@@ -423,7 +430,7 @@
     }
     
     span.author-post-inside {
-        display: block;
+        display: inline-block;
     }
 
     .author-post-inside {
@@ -476,6 +483,7 @@
         font-weight: bold;
         width: 100%;
         height: 100%;
+        user-select: none !important;
     }
 
     .recent-button:hover {
@@ -608,8 +616,16 @@
         margin: 0 15px 0 15px;
     }
 
+    .header-bottom .header-container {
+        margin: 0 15px 0 15px;
+    }
+
     .header-in .costum-main-menu {
         display: none;
+    }
+
+    .header-in .main-menu {
+        width: 50px !important;
     }
 
     .header-in .brand-logo {
@@ -778,7 +794,7 @@
     /* main style  */
     
     .recent-post-inside {
-        margin-bottom: 17px !important;
+        margin-bottom: 10px !important;
     }
 
     .post-inside .category-post-inside {
