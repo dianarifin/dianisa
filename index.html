@@ -40,10 +40,19 @@
     
     
                     <div class="main-search">
-                        <img src="style/img/search-icon.svg" alt="">
-                            
+                        <img class="img-search" src="style/img/search-icon.svg" alt="">
                     </div>
                 </div>
+
+                <div id="search" class="search">
+                    <div class="main-container">
+                        <form action="" class="search-form">
+                            <input type="text" placeholder="Search..." class="search-field">
+                            <input type="submit" value="SEARCH" class="search-submit" >
+                        </form>
+                    </div>
+                </div>
+
             </div>
 
             <!-- header buttom for advertisement -->
@@ -52,6 +61,9 @@
                     <a href="#">Promo! dapatkan Macbook hanya dengan harga 16 juta di sini » </a>
                 </div>
             </div> -->
+
+
+
 
         </div>
     </header>
@@ -330,9 +342,9 @@
 
                         <!-- button-page -- next -->
                         <div class="recent-button-page">
-                            <div href="#" class="recent-button">
+                            <span href="#" class="recent-button">
                                 Muat lebih banyak
-                            </div>
+                            </span>
                         </div>
 
 
@@ -411,6 +423,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+    
+    var elementToClick = document.querySelector(".img-search");
+    var elementToShow = document.querySelector(".search");
+
+    if (elementToClick) {
+        elementToClick.addEventListener("click", showElement)
+    }
+
+    function showElement(){
+        elementToShow.classList.add("show");
+    }
+
+
+    // When user clicks anywhere outside of the modalCompanies, close it
+    // window.onclick = function(event) {
+    //     if (!event.target.matches('.img-search', '.search')) {
+    //         if (elementToShow.classList.contains("show")) {
+    //                 elementToShow.classList.remove("show");
+    //             }
+    //         }
+
+    //     if (!event.target.matches('.search')) {
+    //             elementToShow.classList.remove("show");
+    //     }
+    // }
+
+    </script>
+
 
 </body>
 </html>
