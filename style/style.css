@@ -796,6 +796,7 @@
     .main-post h2, .main-post h3, .main-post h4, .main-post h5 {
         font-weight: bold;
         padding-right: 25px;
+        color: #262626;
     }
 
     .main-post h2 {
@@ -854,6 +855,7 @@
         padding-left: 40px;
         padding-right: 20px;
         list-style-type: decimal;
+        color: #262626;
     }
 
     .main-post ul {
@@ -861,6 +863,7 @@
         padding-left: 40px;
         padding-right: 20px;
         list-style-type: disc;
+        color: #262626;
     }
 
     .main-post ol li {
@@ -877,6 +880,7 @@
 
     .main-post .tags {
         font-weight: bold;
+        color: #262626;
     }
 
     .main-post .tags a {
@@ -1340,6 +1344,10 @@
 
     .main-post figure > figcaption {
         line-height: 1.5 !important;
+    }
+
+    .main-post ul li, .main-post ol li {
+        line-height: 2.1 !important;
     }
 
 
