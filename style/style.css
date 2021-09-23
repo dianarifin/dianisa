@@ -751,6 +751,8 @@
         margin-top: 10px;
         margin-bottom: 15px;
         font-size: 16px;
+        font-weight: 400;
+        color: #262626;
         padding-right: 10px;
     }
 
@@ -1306,6 +1308,7 @@
     .main-post h2, h3, h4, h5 {
         padding-right: unset !important;
         line-height: 1.5 !important;
+        color: #262626;
     }
 
     .main-post h2 {
@@ -1324,9 +1327,13 @@
         font-size: 18px;
     }
 
+    .main-post p {
+        font-size: 16px !important;
+    }
+
 
     .main-post p.pustaka_ref {
-        font-size: 12px !important;
+        font-size: 11px !important;
         line-height: 1.6 !important;
         letter-spacing: 0.5px;
     }
@@ -1391,7 +1398,6 @@
     }
 
     .main-post p {
-        font-size: 17px !important;
         padding-right: 5px !important;
     }
 
