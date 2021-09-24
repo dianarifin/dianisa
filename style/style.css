@@ -665,7 +665,7 @@
 
     .header-post-category a {
         text-decoration: none;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: bold;
         color: #0F6ABE;
     }
@@ -898,7 +898,89 @@
 
 
 
+    /* comments  */
 
+    .main-comment {
+        width: 100%;
+        height: auto;
+        margin: 30px 0 30px 0;
+    }
+
+    .comment-form {
+        width: 100%;
+        height: auto;
+    }
+
+    .discussion-comment {
+        width: auto;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .discussion-comment p {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .form-comment {
+        width: 90%;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .form-comment textarea.comment {
+        width: 100%;
+        float: left;
+        font-size: 12px;
+        letter-spacing: 0.1px !important;
+        line-height: 1.5;
+        padding: 10px 10px 10px 10px;
+        border-radius: 3px;
+        border: 1px solid #C7C5C5;
+        box-sizing: border-box;
+    }
+
+    .form-comment input.author, .form-comment input.email {
+        width: 32%;
+        float: left;
+        font-size: 12px;
+        padding: 7px 10px 7px 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        border-radius: 3px;
+        border: 1px solid #C7C5C5;
+        box-sizing: border-box;
+    }
+
+    .form-comment input.submit {
+        width: 30%;
+        padding: 7px 10px 7px 10px;
+        margin-top: 10px;
+        border: unset !important;
+        border-radius: 3px;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #131313;
+        color: white;
+        box-sizing: border-box;
+    }
+
+    .form-comment input.submit:hover {
+        cursor: pointer;
+        background-color: #0F6ABE;
+    }
+
+    .comment-form p.comment-notif {
+        font-size: 13px;
+        font-weight: 500;
+        margin: 5px 0 10px 0;
+        color: #4F4F4F;
+    }
+
+
+
+
+    /* comments  */
 
 
 
@@ -1357,6 +1439,34 @@
     }
 
 
+    /* comment  */
+
+    .form-comment {
+        width: 95%;
+    }
+
+    .form-comment textarea.comment {
+        font-size: 13px;
+    }
+
+    .form-comment input.author {
+        font-size: 13px;
+    }
+
+    .form-comment input.email {
+        font-size: 13px;
+    }
+
+    .form-comment input.submit {
+        width: 30%;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+
+    /* comment  */
+
+
     /* post  */
 
 
@@ -1418,6 +1528,17 @@
     .main-post ul, .main-post ol {
         padding-right: 14px !important;
     }
+
+
+    /* comment  */
+
+    .form-comment {
+        width: 100%;
+    }
+
+    /* comment  */
+
+
     /* post  */
  
     /* main style  */
