@@ -919,7 +919,7 @@
 
     .discussion-comment p {
         font-weight: 600;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .form-comment {
@@ -1420,6 +1420,7 @@
 
     .main-post p {
         font-size: 16px !important;
+        padding-right: 5px !important;
     }
 
 
@@ -1522,7 +1523,7 @@
     }
 
     .main-post p {
-        padding-right: 5px !important;
+        padding-right: 3px !important;
     }
 
     .main-post ul, .main-post ol {
@@ -1535,6 +1536,18 @@
     .form-comment {
         width: 100%;
     }
+
+    .form-comment input.author, .form-comment input.email {
+        width: 31%;
+        margin-right: 7px;
+        font-size: 11px;
+    }
+
+    .form-comment input.submit {
+        width: 33%;
+        font-size: 11px;
+    }
+
 
     /* comment  */
 
