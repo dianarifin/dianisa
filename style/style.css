@@ -70,6 +70,9 @@
 
 
 /* defaut from me  */
+    html {
+        scroll-behavior: smooth;
+    }
 
     a {
         text-decoration: none;
@@ -756,6 +759,7 @@
     }
 
     .header-post-link {
+
         font-size: 14px;
         float: right;
     }
@@ -779,6 +783,98 @@
         text-decoration: none;
         color: #0F6ABE;
     }
+
+    /* social share  */
+
+    .social-share {
+        width: auto;
+        height: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+
+    .comment-count {
+        float: left;
+        margin-right: 10px;
+    }
+
+    .comment-count a {
+        font-size: 14px;
+    }
+
+    .twitter-share, .facebook-share, .copy-link {
+        float: left;
+        width: auto;
+        height: auto;
+        margin: 0 7px 0 7px;
+    }
+
+    .twitter-share img, .facebook-share img, .copy-link img {
+        width: 18px;
+        height: auto;
+        box-sizing: border-box;
+        color: #0F6ABE;
+    }
+
+    .more-shares {
+        z-index: 7;
+        float: left;
+        width: 18px;
+        min-height: 150px;
+        height: auto;
+        margin: 0 7px 0 7px;
+        background-image: url("/Code/style/img/share-svgrepo-com.svg");
+        background-repeat: no-repeat;
+        background-size: 18px auto;
+        box-sizing: border-box;
+    }
+
+    .more-shares .dropdown-share {
+        align-items: center;
+        z-index: 6;
+        width: 30px;
+        height: auto;
+        margin-top: 27px;
+        margin-left: -5px;
+        position: absolute;
+        display: none;
+        border-radius: 2px;
+        background-color: #eeeeee;
+    }
+
+    .more-shares:hover {
+        cursor: pointer;
+    }
+
+    .more-shares:hover .dropdown-share {
+        cursor: pointer;
+        display: block;
+    }
+
+    .dropdown-twitter-share, .dropdown-facebook-share, .dropdown-pinterest-share, .dropdown-linkedin-share, .dropdown-whatsapp-share {
+        display: inline-block;
+        padding: 6px 6px 2px 6px;
+        box-sizing: border-box;
+    }
+
+    .dropdown-twitter-share img, .dropdown-facebook-share img, .dropdown-pinterest-share img, .dropdown-linkedin-share img, .dropdown-whatsapp-share img {
+        width: 18px;
+        height: auto;
+    }
+
+    .dropdown-twitter-share:hover, .dropdown-facebook-share:hover, .dropdown-pinterest-share:hover, .dropdown-linkedin-share:hover, .dropdown-whatsapp-share:hover {
+        background-color: #bdbdbd;
+    }
+
+    .dropdown-twitter-share, .dropdown-facebook-share {
+        display: none;
+    }
+
+
+
+
+    /* social share  */
 
 
 
@@ -922,6 +1018,37 @@
         text-align: left;
         line-height: 34px;
     }
+
+    .main-post pre, .main-post .wp-block-code {
+        width: 100%;
+        height: auto;
+        padding: 7px 12px;
+        margin-bottom: 12px;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+        /* border: 1px solid #BABABA; */
+        box-sizing: border-box;
+        
+    }
+
+    .main-post pre code {
+        display: inline-block;
+        font-size: smaller;
+        white-space: pre-wrap;
+        overflow-wrap: break-word;
+        line-height: 2.1;
+        color: #1a1a1a;
+    }
+
+    .main-post .wp-block-code:hover {
+        cursor: auto;
+    }
+
+    .main-post pre code:hover {
+        cursor: auto;
+    }
+
+
 
     /* yoast  */
 
@@ -1534,6 +1661,22 @@
         font-size: 12px !important;
     }
 
+    /* social share  */
+
+    .comment-count, .twitter-share, .facebook-share {
+        display: none !important;
+    }
+
+    .dropdown-twitter-share, .dropdown-facebook-share {
+        display: inline-block !important;
+    }
+
+
+
+
+    /* social share  */
+
+
     .main-post h2, h3, h4, h5 {
         padding-right: unset !important;
         line-height: 1.5 !important;
@@ -1769,6 +1912,14 @@
 
     .header-post-info {
         font-size: 13px !important;
+    }
+
+    .header-post-info .post-date {
+        margin-left: 5px !important;
+    }
+
+    .copy-link {
+        display: none !important;
     }
 
     /* post  */
