@@ -843,6 +843,7 @@
         display: none;
         user-select: none;
         border-radius: 4px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         background-color: #eeeeee;
     }
 
@@ -854,6 +855,7 @@
     .more-shares:hover .dropdown-share {
         cursor: pointer;
         display: block;
+        user-select: none;
     }
 
     .dropdown-twitter-share, .dropdown-facebook-share, .dropdown-pinterest-share, .dropdown-linkedin-share, .dropdown-whatsapp-share {
