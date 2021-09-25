@@ -807,6 +807,7 @@
         float: left;
         width: auto;
         height: auto;
+        user-select: none;
         margin: 0 7px 0 7px;
     }
 
@@ -840,12 +841,14 @@
         margin-left: -5px;
         position: absolute;
         display: none;
+        user-select: none;
         border-radius: 4px;
         background-color: #eeeeee;
     }
 
     .more-shares:hover {
         cursor: pointer;
+        user-select: none;
     }
 
     .more-shares:hover .dropdown-share {
