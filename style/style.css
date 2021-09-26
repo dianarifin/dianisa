@@ -1286,6 +1286,7 @@
     }
 
     .related-post-main {
+        display: inline-block;
         width: 100%;
         height: auto;
     }
@@ -1297,7 +1298,7 @@
         height: 80px;
         overflow: hidden;
         background-color: #E5E4E4;
-        border-radius: 3px;
+        border-radius: 2px;
         box-sizing: border-box;
     }
 
@@ -1649,6 +1650,7 @@
     .related-post-title h3 {
         font-size: 20px !important;
         line-height: 1.3;
+        letter-spacing: -0.1px;
         padding-top: 10px;
         padding-right: 30px;
         box-sizing: border-box;
@@ -1660,7 +1662,7 @@
     }
 
     .related-post-author .author-post a, .related-post-author .time-post {
-        font-size: 10px !important;
+        font-size: 10px;
     }
 
     .related-post-author .gap-icon {
@@ -1792,6 +1794,8 @@
     .author-post-inside {
         font-size: 9px !important;
     }
+
+    
 
 
     /* post  */
@@ -1967,6 +1971,8 @@
         font-size: 9px !important;
     }
 
+
+
     /* related post  */
 
     /* main style  */
@@ -2062,7 +2068,28 @@
 
 
     /* post  */
- 
+    
+
+    /* recent post  */
+
+    .related-post-inside {
+        padding-left: 15px !important;
+    }
+
+    .related-post-thumbnail {
+        height: 135px !important;
+        min-height: unset !important;
+        max-height: 100px !important;
+    }
+
+
+    .related-post-title h3 {
+        padding-top: unset !important;
+        font-size: 15px !important;
+    }
+    /* recent post  */
+
+
     /* main style  */
 
     /* footer style  */
