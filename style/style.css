@@ -2306,6 +2306,22 @@
 
 }
 
+@media screen and (max-width: 390px) {
+    
+
+    /* table  */
+
+    .main-post table {
+        font-size: 13px;
+    }
+
+    .main-post table tr th {
+        font-size: 12px;
+    }
+
+    /* table  */
+}
+
 
 @media screen and (max-width: 350px) {
 
