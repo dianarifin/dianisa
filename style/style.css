@@ -279,7 +279,7 @@
 
     .header .header-bottom {
         z-index: 6;
-        display: block;
+        display: none !important;
         width: 100%;
         min-height: 40px;
         background-color: #0F6ABE;
@@ -822,7 +822,7 @@
 
 
     .more-shares {
-        z-index: 6;
+        z-index: 5;
         float: left;
         width: 17px;
         min-height: 50px;
@@ -841,7 +841,7 @@
 
     .more-shares .dropdown-share {
         align-items: center;
-        z-index: 7;
+        z-index: 8;
         width: 30px;
         height: auto;
         margin-top: 27px;
@@ -1060,6 +1060,51 @@
         cursor: auto;
     }
 
+    /* table  */
+
+    .main-post figure.wp-block-table {
+        border-radius: unset !important;
+        overflow-x: auto !important;
+    }
+
+    .main-post table {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .main-post table tr {
+
+        display: table-row;
+    }
+
+    .main-post table tr th {
+        padding: 10px 10px 10px 10px;
+        width: 10%;
+        text-align: left;
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        background-color: #1a1a1a;
+        box-sizing: border-box;
+    }
+
+    .main-post table tr td {
+        padding: 10px 10px 10px 10px;
+        width: 10%;
+        border-bottom: 1px solid #E5E4E4;
+        text-align: left;
+        color: #1a1a1a;
+    }
+
+    .main-post table tr td ul {
+        padding-right: unset !important;
+    }
+
+    .main-post table tr td ul li {
+        line-height: 1.9;
+    }
+
+    /* table  */
 
 
     /* yoast  */
@@ -1399,6 +1444,10 @@
         color: #131313;
     }
 
+    .header-post-title h1 a:hover {
+        color: #4099ff;
+    }
+
     .short-desc {
         padding-right: 30px;
     }
@@ -1411,7 +1460,7 @@
     
     footer { 
         display: block;
-        margin-top: 30px;
+        margin-top: 150px;
         width: 100%;
         height: 100%;
     }
@@ -1976,6 +2025,23 @@
     .main-post ul li, .main-post ol li {
         line-height: 2.1 !important;
     }
+
+    /* table  */
+
+    .main-post table {
+        font-size: 13px;
+    }
+
+    .main-post table tr th {
+        font-size: 14px;
+    }
+
+    .main-post table tr td ul {
+        padding-left: 20px;
+        margin-top: 5px;
+    }
+
+    /* table  */
 
 
     /* comment  */
