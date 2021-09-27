@@ -1063,23 +1063,40 @@
     /* table  */
 
     .main-post figure.wp-block-table {
+        width: 100%;
         border-radius: unset !important;
         overflow-x: auto !important;
     }
 
     .main-post table {
+        line-height: 2.4;
         font-size: 14px;
         width: 100%;
     }
 
-    .main-post table tr {
+    .main-post table thead {
+        vertical-align: middle;
+        width: 100%;
+        display: table-row-group;
+    }
 
+    .main-post table tr {
         display: table-row;
     }
 
+    .main-post table thead tr th {
+        vertical-align: middle;
+        width: unset !important;
+    }
+
+    .main-post table tbody tr td {
+        width: unset !important;
+    }
+
     .main-post table tr th {
+        vertical-align: middle;
         padding: 10px 10px 10px 10px;
-        width: 10%;
+        width: 15px;
         text-align: left;
         font-size: 15px;
         font-weight: bold;
@@ -1090,7 +1107,7 @@
 
     .main-post table tr td {
         padding: 10px 10px 10px 10px;
-        width: 10%;
+        width: 15px;
         border-bottom: 1px solid #E5E4E4;
         text-align: left;
         color: #1a1a1a;
@@ -1101,7 +1118,7 @@
     }
 
     .main-post table tr td ul li {
-        line-height: 1.9;
+        line-height: 2;
     }
 
     /* table  */
