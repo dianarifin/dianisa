@@ -981,7 +981,6 @@
         position: relative;
         display: block;
         width: 100%;
-        max-width: 100%;
         margin: 20px 0 20px 0;
         height: auto;
         border-radius: 2px;
@@ -2037,6 +2036,26 @@
         padding-right: 10px;
         font-size: 10px !important;
         line-height: 1.4 !important;
+    }
+
+    .is_mega_medium, .is_mega {
+        display: block !important;
+        width: calc(100% + 30px) !important;
+        height: auto;
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+        padding-left: 0;
+        padding-right: 0;
+        border-radius: unset !important;
+    }
+
+    .is_mega_medium img, .is_mega img {
+        border-radius: unset !important;
+    }
+
+    .is_mega_medium figcaption, .is_mega figcaption {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
     }
 
     .main-post ul li, .main-post ol li {
