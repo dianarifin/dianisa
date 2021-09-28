@@ -1554,7 +1554,7 @@
     }
 
     .footer-menu-left ul li {
-        text-align: center !important;
+        text-align: left;
         font-size: 15px;
         font-weight: bold;
         color: #121212;
@@ -2313,6 +2313,7 @@
     }
 
     .footer-menu-left ul li {
+        text-align: center !important;
         font-size: 14px;
         padding: 10px 10px 15px 10px;
     }
