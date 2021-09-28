@@ -83,7 +83,12 @@
         cursor: pointer;
     }
 
+    h1, h2, h3, h4, h5 {
+        text-align: left !important;
+    }
+
     p {
+        text-align: left !important;
         font-size: 16px;
         color: #1a1a1a;
     }
@@ -100,6 +105,15 @@
 
     ol, ul {
         color: #1a1a1a;
+    }
+
+    ol li, ul li {
+        text-align: left !important;
+    }
+
+    figure, img {
+        width: 100%;
+        height: auto;
     }
 
     span {
@@ -495,7 +509,7 @@
         width: 69%;
         height: 100%;
         float: left;
-        padding-right: 25px;
+        padding-right: 35px;
         box-sizing: border-box;
     }
 
@@ -903,12 +917,12 @@
     }
 
     .main-post p {
+        text-align: left !important;
         margin-top: 10px;
         margin-bottom: 15px;
         font-size: 16px;
         font-weight: 400;
         color: #1a1a1a;
-        padding-right: 10px;
     }
 
     .main-post a {
@@ -994,6 +1008,17 @@
         border-radius: 2px;
     }
 
+    .main-post img {
+        width: 100;
+        height: auto;
+        background-color: #E5E4E4;
+        border-radius: 2px;
+    }
+
+    .main-post p img {
+        padding: 0 !important;
+    }
+
     .main-post figure > figcaption {
         font-size: 11px;
         font-weight: 400;
@@ -1020,13 +1045,13 @@
     }
 
     .main-post ol li {
-        text-align: left;
+        text-align: left !important;
         line-height: 34px;
     }
 
     
     .main-post ul li {
-        text-align: left;
+        text-align: left !important;
         line-height: 34px;
     }
 
@@ -1044,6 +1069,7 @@
 
     .main-post pre code {
         display: inline-block;
+        text-align: left !important;
         font-size: smaller;
         white-space: pre-wrap;
         overflow-wrap: break-word;
@@ -1094,7 +1120,7 @@
 
     .main-post table tr th {
         vertical-align: middle;
-        padding: 10px 10px 10px 10px;
+        padding: 8px 10px 8px 10px;
         width: 15px;
         text-align: left;
         font-size: 15px;
@@ -1105,7 +1131,7 @@
     }
 
     .main-post table tr td {
-        padding: 10px 10px 10px 10px;
+        padding: 8px 10px 8px 10px;
         width: 15px;
         border-bottom: 1px solid #E5E4E4;
         text-align: left;
@@ -2022,7 +2048,6 @@
 
     .main-post p {
         font-size: 16px !important;
-        padding-right: 5px !important;
     }
 
 
@@ -2183,10 +2208,6 @@
 
     .main-post h3 {
         font-size: 22px;
-    }
-
-    .main-post p {
-        padding-right: 3px !important;
     }
 
     .main-post ul, .main-post ol {
