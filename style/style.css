@@ -1022,6 +1022,8 @@
 
     .main-post img {
         margin: 15px 0 15px 0;
+        background-color: #E5E4E4;
+        border-radius: 2px;
     }
 
     .main-post figure > figcaption {
@@ -2085,8 +2087,8 @@
     }
 
     .is_mega_medium figcaption, .is_mega figcaption {
-        margin-left: 15px !important;
-        margin-right: 15px !important;
+        margin-left: 18px !important;
+        margin-right: 18px !important;
     }
 
     .main-post ul li, .main-post ol li {
@@ -2219,6 +2221,16 @@
     .main-post ul, .main-post ol {
         padding-right: 14px !important;
     }
+
+    /* table  */
+
+    figure.wp-block-table {
+        width: calc(100% + 20px) !important;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    /* table  */
 
 
     /* social share  */
