@@ -956,10 +956,6 @@
 
     /* social share  */
 
-
-
-
-
     .recent-post-index .main-post {
         width: 100%;
         height: auto;
@@ -1014,9 +1010,27 @@
         font-style: italic;
     }
 
-    .sumber_ref li {
-        font-size: 14px;
+    /* tambahan  */
+
+    .sumber_ref {
+        margin-bottom: 30px !important;
     }
+
+    .sumber_ref li {
+        line-height: 1.9 !important;
+        font-size: 13px;
+    }
+
+    .main-post hr.hr_down {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        border: 0.1px solid rgb(177, 177, 177);
+        border-radius: 5px;
+    }
+    
+
+    /* tambahan  */
 
     .main-post h2, .main-post h3, .main-post h4, .main-post h5 {
         font-weight: bold;
@@ -1798,6 +1812,10 @@
         font-size: 17px !important;
     }
 
+    .main-post p.pustaka_ref {
+        font-size: 13px !important;
+    }
+
     /* post  */
 
     /* recent post  */
@@ -2187,14 +2205,16 @@
         letter-spacing: 0.5px;
     }
 
-    .sumber_ref li {
-        font-size: 11px !important;
-    }
-
     .main-post figure > figcaption {
         padding-right: 10px;
         font-size: 10px !important;
         line-height: 1.4 !important;
+    }
+
+
+    /* tambahan  */
+    .sumber_ref li {
+        font-size: 10px !important;
     }
 
     .is_mega_medium, .is_mega, .is_mega_mobile {
