@@ -1315,13 +1315,13 @@
         font-size: 16px;
     }
 
-    .form-comment {
+    .comment-form {
         width: 90%;
         display: inline-block;
         margin-bottom: 10px;
     }
 
-    .form-comment textarea.comment {
+    .comment-form textarea.comment {
         width: 100%;
         float: left;
         font-size: 12px;
@@ -1334,7 +1334,7 @@
         box-sizing: border-box;
     }
 
-    .form-comment input.author, .form-comment input.email {
+    .comment-form input.author, .comment-form input.email {
         width: 32%;
         float: left;
         font-size: 12px;
@@ -1346,7 +1346,7 @@
         box-sizing: border-box;
     }
 
-    .form-comment input.submit {
+    .comment-form input.submit {
         width: 30%;
         padding: 7px 10px 7px 10px;
         margin-top: 10px;
@@ -1359,7 +1359,7 @@
         box-sizing: border-box;
     }
 
-    .form-comment input.submit:hover {
+    .comment-form input.submit:hover {
         cursor: pointer;
         background-color: #0F6ABE;
     }
@@ -2265,23 +2265,23 @@
 
     /* comment  */
 
-    .form-comment {
+    .comment-form {
         width: 95%;
     }
 
-    .form-comment textarea.comment {
+    .comment-form textarea.comment {
         font-size: 13px;
     }
 
-    .form-comment input.author {
+    .comment-form input.author {
         font-size: 13px;
     }
 
-    .form-comment input.email {
+    .comment-form input.email {
         font-size: 13px;
     }
 
-    .form-comment input.submit {
+    .comment-form input.submit {
         width: 30%;
         font-size: 14px;
         font-weight: bold;
@@ -2405,20 +2405,20 @@
 
     /* comment  */
 
-    .form-comment {
+    .comment-form {
         width: 100%;
     }
-    .form-comment textarea.comment {
+    .comment-form textarea.comment {
         font-size: 11px;
     }
 
-    .form-comment input.author, .form-comment input.email {
+    .comment-form input.author, .comment-form input.email {
         width: 31%;
         margin-right: 7px;
         font-size: 11px;
     }
 
-    .form-comment input.submit {
+    .comment-form input.submit {
         width: 33%;
         font-size: 11px;
     }
